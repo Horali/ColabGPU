@@ -1,0 +1,40 @@
+# Binaries & Executables
+cloudflared.exe
+*.exe
+
+# SSH Keys & Credentials
+colab_key
+colab_key.pub
+*.key
+*.pem
+*.pub
+id_*
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Data & Media
+data/
+*.mp4
+*.png
+*.jpg
+*.jpeg
+*.zip
+*.tar.gz
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+# Local tunnel state
+.host
